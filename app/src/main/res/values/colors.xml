@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="submitButtonBackgroundColor">#FFFF0000</color>
+    <color name="notificationTextColor_Error">#FFdd7777</color>
+    <color name="notificationTextColor_Success">#FF77cc77</color>
+    <color name="notificationTextColor_Info">#FFFFFFFF</color>
+    <color name="separatorColor">#7f888888</color>
+    <color name="inputHintColor">#FF888888</color>
+    <color name="buttonBackgroundTint">#FF818288</color>
+    <color name="buttonTextColor">#FF002255</color>
+    <color name="connectionStatusLayoutBackgroundColorDisconnected">#FF818288</color>
+    <color name="connectionStatusLayoutBackgroundColorConnected">#FF88aa88</color>
+</resources>

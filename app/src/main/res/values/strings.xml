@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NFC Control</string>
+    <string name="main_activity_enter_data_button_text">Enter data to send</string>
+    <string name="main_activity_enter_data_button_section_open_text">Hide</string>
+    <string name="main_activity_name_hint">enter message here</string>
+    <string name="main_activity_app_image_view_content_description">app image</string>
+    <string name="main_activity_initial_text_content">Ready to connect to tag</string>
+    <string name="main_activity_connection_status_disconnected_text">No Tag Connected</string>
+    <string name="main_activity_connection_status_connected_text">Connected</string>
+    <string name="main_activity_edit_area_input_hint">This text data will be sent directly after the connection to the tag is established.</string>
+    <string name="main_activity_send_now_button_text">Send Now</string>
+</resources>
