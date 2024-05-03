@@ -70,18 +70,13 @@ class NFCController(context: Context) {
     private fun writeMessageToTag(data: ByteArray, tag: Tag?): Boolean {
 
         try {
-            //val nfcTag = NfcV.get(tag)
-
             if(nfcTag == null) {
                 nfcTag = NfcV.get(tag)
             }
-
             nfcTag?.let {
-
                 if(!it.isConnected) {
                     it.connect()
                 }
-
                 if(it.maxTransceiveLength < data.size) {
                     nfcListener?.onNfcOperationFail("Message to large to write to NFC tag")
                     return false
