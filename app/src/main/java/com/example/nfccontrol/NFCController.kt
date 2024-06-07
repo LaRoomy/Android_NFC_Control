@@ -136,7 +136,7 @@ class NFCController(context: Context) {
         }
         isPolling = true
         ftmPollTimer = Timer()
-        ftmPollTimer?.scheduleAtFixedRate(object : java.util.TimerTask() {
+        ftmPollTimer?.schedule(object : java.util.TimerTask() {
             override fun run() {
                 try {
                     nTag?.let {
