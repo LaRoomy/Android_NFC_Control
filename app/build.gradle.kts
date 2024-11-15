@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.nfccontrol"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.nfccontrol"
@@ -46,8 +46,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("androidx.datastore:datastore-preferences:1.1.0")
-    implementation("androidx.datastore:datastore:1.1.0")
+    implementation(libs.androidx.datastore.preferences)
+    implementation(libs.androidx.datastore)
 
 
 }
