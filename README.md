@@ -23,12 +23,12 @@ The app is designed for a single-page interface where users can transmit and rec
 + Fast-Mailbox Transfer Mode:
   + Utilizes the high-speed mailbox buffer of the ST25DV64KC for data transfer.
 + ST25DV64KC Chip-Specific Communication:
-  + Uses the ST25DV64KC's ISO/IEC 15693 NFC Forum Type 5 capabilities.
+  + Uses the ST25DV64KC's ISO/IEC 15693 NFC Type 5 capabilities.
   + Employs the Fast-Mailbox buffer for efficient data exchange.
  
 ## Architecture
 
-The application has a straightforward architecture, focusing on NFC communication.
+The application has a simple, straightforward architecture, focusing on NFC communication.
 
 ### Components
 
